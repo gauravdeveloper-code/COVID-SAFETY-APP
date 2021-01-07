@@ -1,10 +1,10 @@
 # COVID-SAFETY-APP
 
-# Application discription
+# Application description
 
 This is a Android application regarding the novel corona virus.
 
-By using this application user will get 
+# By using this application user will get 
 
 * Updated information regarding number of cases*
 * COVID beds available* 
@@ -40,7 +40,7 @@ By using this application user will get
     implementation 'com.google.firebase:firebase-auth:16.0.5'
     
     
-    PERMISSIONS USED IN MANIFEST
+   # PERMISSIONS USED IN MANIFEST
     
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
