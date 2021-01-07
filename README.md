@@ -11,7 +11,7 @@ This is a Android application regarding the novel corona virus.
 * Latest guidelines* 
 * User can check their chances of them having the virus*
 
-#implementations used in gradel for the appliction
+# #implementations used in gradel for the appliction
 
     //for material layout
     implementation 'com.google.android.material:material:1.0.0'
