@@ -15,7 +15,7 @@ This is a Android application regarding the novel corona virus.
 
     //for material layout
     implementation 'com.google.android.material:material:1.0.0'
-    or you can uses
+    or you can use
     implementation 'com.google.android.material:material:1.2.0-alpha04'
     
     //for QR code generator
