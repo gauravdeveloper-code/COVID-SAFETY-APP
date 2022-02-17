@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:background="#7CB323"
-        />
+        android:background="@color/colorPrimaryDark" />
+
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/view_pager2"
-        android:background="@drawable/slideimagesbg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@id/indicator"
         android:layout_centerInParent="true"
-        android:layout_above="@id/indicator"/>
+        android:background="@drawable/browserpagebg" />
 
 </RelativeLayout>

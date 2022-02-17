@@ -6,15 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Scanner">
+
     <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
         android:layout_width="match_parent"
         android:layout_height="430dp"
-        android:id="@+id/scanner_view"
         app:autoFocusButtonColor="#FBFAFA"
         app:autoFocusButtonVisible="true"
         app:flashButtonColor="#FBF9F9"
         app:flashButtonVisible="true"
-        app:maskColor="#82C338"/>
+        app:maskColor="@color/colorPrimaryDark" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

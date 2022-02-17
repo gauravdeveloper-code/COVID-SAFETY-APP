@@ -22,7 +22,6 @@
         tools:layout_editor_absoluteX="0dp" />
 
 
-
     <ImageView
         android:id="@+id/QRIMAGE"
         android:layout_width="250dp"
@@ -43,7 +42,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.183"
-        tools:layout_editor_absoluteX="16dp">
+        tools:layout_editor_absoluteX="0dp">
 
         <EditText
             android:id="@+id/name_qr"
@@ -66,9 +65,9 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/rectangleoption"
             android:hint="ENTER YOUR ADDRESS"
+            android:inputType="textEmailAddress"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:inputType="textEmailAddress"
             android:textColorHint="#9C9797" />
 
         <EditText
@@ -79,9 +78,9 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/rectangleoption"
             android:hint="ENTER YOUR PHONE NO."
+            android:inputType="number"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:inputType="number"
             android:textColorHint="#9C9797" />
 
         <EditText
@@ -92,9 +91,9 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/rectangleoption"
             android:hint="ENTER YOUR GATE ENTRY ID"
+            android:inputType="text"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:inputType="text"
             android:textColorHint="#9C9797" />
     </LinearLayout>
 
@@ -111,7 +110,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.807" />
-
 
 
     <TextView

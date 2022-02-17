@@ -1,21 +1,15 @@
 package com.example.covidsafety
 
-import android.media.Image
 import android.view.LayoutInflater
-import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
-import androidx.viewpager.widget.ViewPager
 
 class scrollpageradapter(private var images:List<Int>) : RecyclerView.Adapter<scrollpageradapter.Pager2ViewHolder>(){
     inner class Pager2ViewHolder (itemView: View):RecyclerView.ViewHolder(itemView){
 
-        val itemImage:ImageView=itemView.findViewById(R.id.ivimage)
+        val itemImage:ImageView=itemView.findViewById(R.id.image_4)
 
     }
 

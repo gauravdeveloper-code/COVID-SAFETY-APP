@@ -41,22 +41,20 @@ class browseractivities : AppCompatActivity() {
             };true
         }
 
+        //For entering into browsers and activities
+
         activecases.setOnClickListener {
-            val open = Intent(Intent.ACTION_VIEW,Uri.parse("https://covidindia.org/"))
-            startActivity(open) }
+            startActivity(Intent(this,Activecase_website::class.java)) }
         bed_avail.setOnClickListener {
-            val open = Intent(Intent.ACTION_VIEW,Uri.parse("https://delhifightscorona.in/data/hospital-beds/"))
-            startActivity(open) }
+            startActivity(Intent(this,beds_website::class.java)) }
         guidelines.setOnClickListener {
-            val open = Intent(Intent.ACTION_VIEW,Uri.parse("https://www.covid19treatmentguidelines.nih.gov/"))
-            startActivity(open) }
+           startActivity(Intent(this,Guidelines_website::class.java))}
         mcq_page.setOnClickListener {
             startActivity(Intent(this,page3::class.java))
         }
         preventions.setOnClickListener{
             startActivity(Intent(this,slidingpages::class.java))
         }
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
